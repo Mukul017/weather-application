@@ -1,4 +1,3 @@
-
 const apiKey = "fc86897acb3e28aaebf1e55991a1206a"; // Your WeatherStack API Key
 
 async function getWeather(city) {
@@ -48,5 +47,5 @@ function clearWeatherData() {
     document.getElementById("wind-speed").textContent = "";
 }
 
-// Example call to get weather data for Bangalore
+// Example call to get weather data for Kota
 getWeather("Kota, Rajasthan, India");
