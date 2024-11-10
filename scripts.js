@@ -2,7 +2,7 @@
 const apiKey = "fc86897acb3e28aaebf1e55991a1206a"; // Your WeatherStack API Key
 
 async function getWeather(city) {
-    const url = `http://api.weatherstack.com/current?access_key=${apiKey}&query=${city}`;
+    const url = `https://api.weatherstack.com/current?access_key=${apiKey}&query=${city}`;
 
     try {
         const response = await fetch(url);
